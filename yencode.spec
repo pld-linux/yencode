@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/File
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	6af054f69c781cafa620063878a831ea
 URL:		http://www.yencode.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
