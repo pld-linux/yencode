@@ -27,7 +27,7 @@ multiple-file archives.
 
 %description -l pl
 yencode to koder/dekoder do usenetowego formatu kodowania yEnc. Jest w
-pe³ni umiêdzynarodowiony przez GNU gettext. Koder mo¿e wyprodujowaæ
+pe³ni umiêdzynarodowiony przez GNU gettext. Koder mo¿e wyprodukowaæ
 jedn± czê¶æ lub archiwum w wielu czê¶ciach o dowolnym rozmiarze.
 Inteligentny dekoder mo¿e obs³u¿yæ wiele plików, w tym pliki podane w
 z³ej kolejno¶ci lub z bezsensownymi nazwami. Za³±czone narzêdzie do
