@@ -41,7 +41,7 @@ wieloczê¶ciowe w podanych katalogach lub rekurencyjnie. Obs³uguje
 tworzenie plików SFV do wieloczê¶ciowych archiwów.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %{__aclocal}
@@ -55,7 +55,8 @@ tworzenie plików SFV do wieloczê¶ciowych archiwów.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
