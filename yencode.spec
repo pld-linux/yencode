@@ -5,7 +5,7 @@ Version:	0.46
 Release:	1
 License:	GPL
 Group:		Applications/File
-Source0:	http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 URL:		http://www.yencode.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
