@@ -7,6 +7,8 @@ License:	GPL
 Group:		Applications/File
 Source0:	http://prdownloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 URL:		http://www.yencode.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,7 +43,7 @@ tworzenie plików SFV do wieloczê¶ciowych archiwów.
 %setup -q -n %{name}-%{version}
 
 %build
-aclocal
+%{__aclocal}
 %{__autoconf}
 autoheader
 %{__automake}
