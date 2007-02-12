@@ -1,5 +1,5 @@
 Summary:	Powerful yEnc decoder/encoder
-Summary(pl):	Potê¿ny koder/dekoder yEnc
+Summary(pl.UTF-8):   PotÄ™Å¼ny koder/dekoder yEnc
 Name:		yencode
 Version:	0.46
 Release:	1
@@ -26,19 +26,19 @@ locate and decode single or multipart encoded archives in specified
 directories or recursively. Supports SFV file creation for
 multiple-file archives.
 
-%description -l pl
+%description -l pl.UTF-8
 yencode to koder/dekoder do usenetowego formatu kodowania yEnc. Jest w
-pe³ni umiêdzynarodowiony przez GNU gettext. Koder mo¿e wyprodukowaæ
-jedn± czê¶æ lub archiwum w wielu czê¶ciach o dowolnym rozmiarze.
-Inteligentny dekoder mo¿e obs³u¿yæ wiele plików, w tym pliki podane w
-z³ej kolejno¶ci lub z bezsensownymi nazwami. Za³±czone narzêdzie do
-wysy³ania postów na Usenet wysy³a pliki szybko i ³atwo, z
-automatycznym powtarzaniem i wznawianiem przerwanego wysy³ania oraz
-automatycznym tworzeniem archiwów i plików sum kontrolnych SFV/CRC,
-je¶li u¿ytkownik ich sobie za¿yczy. Opcjonalny tryb skanowania
+peÅ‚ni umiÄ™dzynarodowiony przez GNU gettext. Koder moÅ¼e wyprodukowaÄ‡
+jednÄ… czÄ™Å›Ä‡ lub archiwum w wielu czÄ™Å›ciach o dowolnym rozmiarze.
+Inteligentny dekoder moÅ¼e obsÅ‚uÅ¼yÄ‡ wiele plikÃ³w, w tym pliki podane w
+zÅ‚ej kolejnoÅ›ci lub z bezsensownymi nazwami. ZaÅ‚Ä…czone narzÄ™dzie do
+wysyÅ‚ania postÃ³w na Usenet wysyÅ‚a pliki szybko i Å‚atwo, z
+automatycznym powtarzaniem i wznawianiem przerwanego wysyÅ‚ania oraz
+automatycznym tworzeniem archiwÃ³w i plikÃ³w sum kontrolnych SFV/CRC,
+jeÅ›li uÅ¼ytkownik ich sobie zaÅ¼yczy. Opcjonalny tryb skanowania
 automatycznie znajduje i dekoduje archiwa pojedyncze lub
-wieloczê¶ciowe w podanych katalogach lub rekurencyjnie. Obs³uguje
-tworzenie plików SFV do wieloczê¶ciowych archiwów.
+wieloczÄ™Å›ciowe w podanych katalogach lub rekurencyjnie. ObsÅ‚uguje
+tworzenie plikÃ³w SFV do wieloczÄ™Å›ciowych archiwÃ³w.
 
 %prep
 %setup -q
