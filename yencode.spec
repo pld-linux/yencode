@@ -1,5 +1,5 @@
 Summary:	Powerful yEnc decoder/encoder
-Summary(pl.UTF-8):   Potężny koder/dekoder yEnc
+Summary(pl.UTF-8):	Potężny koder/dekoder yEnc
 Name:		yencode
 Version:	0.46
 Release:	1
